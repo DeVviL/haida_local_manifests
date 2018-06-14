@@ -5,9 +5,7 @@
           review="gerrit.omnirom.org" />
 
   <!-- TWRP -->
-  <remove-project name="LineageOS/android_bootable_recovery" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-8.1" />
-  <project path="bootable/recovery-cm" name="LineageOS/android_bootable_recovery" groups="pdk" />
+  <project path="bootable/recovery-twrp" name="android_bootable_recovery" remote="omnirom" revision="android-8.1" />
 
   <project name="LineageOS/android_external_busybox" path="external/busybox" />
 </manifest>
